@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "haystack_veracity_node"
+version = "0.0.1"
+authors = [
+  { name="xceron", email="github@florianbrand.de" },
+]
+description = "A Veracity Node for Haystack"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "farm-haystack",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xceron/haystack_veracity_node"
+"Bug Tracker" = "https://github.com/xceron/haystack_veracity_node/issues"
