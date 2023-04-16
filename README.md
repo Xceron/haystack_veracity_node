@@ -11,7 +11,8 @@ The Node expects the context to be passed into `results`. If the previous node i
 ## Example Usage with Haystack Memory
 ```py
 from haystack_veracity_node.node import VeracityNode
-from haystack_memory.memory import RedisMemoryRecallNode, memory_template
+from haystack_memory.memory import RedisMemoryRecallNode
+from haystack_memory.prompt_templates import memory_template
 from haystack import Pipeline
 from haystack.agents import Agent, Tool
 from haystack.nodes import PromptNode
